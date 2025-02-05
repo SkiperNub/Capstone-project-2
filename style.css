@@ -1,0 +1,35 @@
+
+.fish1 ,  .fish2 ,   .sea-bot1, .sea-bot2{
+    mix-blend-mode: multiply;
+    background-color: transparent;
+}
+
+.fish1 {
+    top: 200px;
+    position: absolute;
+    left: 220px;
+    height: 150px;
+    
+}
+
+.fish2 {
+    position: absolute;
+    left: 1850px;
+    top: 500px;
+    height: 150px
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.top-container {
+    display: block;
+    background-color: #3674B5;
+    height: 500px;
+    position: relative;
+    padding-top:400px ;
+}

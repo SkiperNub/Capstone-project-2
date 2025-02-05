@@ -1,0 +1,72 @@
+
+.mid-container {
+    background-color: #578FCA;
+    height: 1350px;
+}
+
+.profile {
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.pp {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    height: 200px;
+}
+
+.profile,
+h1 > p {
+    text-align: center;
+    font-family: play;
+    font-weight: 500;
+}
+
+.skills {
+
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 250px 400px;
+    grid-template-rows: 1fr 1fr ;
+    row-gap: 70px;
+    width: 50%;
+    margin: 70px auto 0px auto;
+}
+
+.grid-img>img {
+    border-radius: 50%;
+    height: 200px;
+    margin-left: 15px;
+}
+
+.grid-text,
+h3,
+p {
+
+    font-family: play;
+}
+
+.contact {
+    background-color: #578FCA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.contact  button   {
+border: 5px solid #000000 ;
+border-radius: 70px;
+background-color: #578FCA;
+background: linear-gradient( 0deg ,  #578FCA , #6aa1d4) ;
+height: 50px;
+margin-bottom: 100px;
+}
+.contact  button a {
+font-size: 20px;
+margin: 15px;
+text-decoration: none;
+color: #D1F8EF;
+} 
